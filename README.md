@@ -80,7 +80,38 @@
   카카오톡 쇼핑하기 홈페이지와 유사한 무한 캐러셀을 구현했습니다.
   다양한 상품 이미지가 자동으로 슬라이드되며, 사용자가 직접 슬라이드할 수도 있습니다.
   ```
+</br>
 
+## 페이지 구성
+
+#### 로그인 페이지
+
+|<img width="934" alt="스크린샷 2023-08-08 오후 9 18 40" src="https://github.com/kimchanho97/algorithm/assets/104095041/4a1cbb87-ca9f-4b2b-b632-e75bfc1cf9c2">|<img width="934" alt="스크린샷 2023-08-08 오후 9 19 12" src="https://github.com/kimchanho97/algorithm/assets/104095041/1d26b9f6-b5df-451d-a511-6cacf53bcbb4">|
+| --- | --- |
+
+#### 회원가입 페이지
+
+|<img width="934" alt="스크린샷 2023-08-08 오후 9 24 15" src="https://github.com/kimchanho97/algorithm/assets/104095041/3ce96c8e-df0d-4dc5-9746-8c5fc3555036">|<img width="934" alt="스크린샷 2023-08-08 오후 9 23 59" src="https://github.com/kimchanho97/algorithm/assets/104095041/3c3be5c6-7d23-418e-a3a8-d106ca401be0">|
+| --- | --- |
+
+#### 메인 페이지
+
+<img width="1440" alt="스크린샷 2023-08-08 오후 9 27 10" src="https://github.com/kimchanho97/algorithm/assets/104095041/318f9dfd-cf83-4944-82d8-180a23848a0b">
+
+#### 상품상세 페이지
+
+<img width="1440" alt="스크린샷 2023-08-08 오후 9 27 58" src="https://github.com/kimchanho97/algorithm/assets/104095041/d874e2b1-376e-4b9a-8c70-a7e1f6d1551c">
+
+#### 장바구니 페이지
+
+<img width="1440" alt="스크린샷 2023-08-08 오후 9 28 38" src="https://github.com/kimchanho97/algorithm/assets/104095041/761ad110-b089-4e8a-806b-3dccb2d9c01c">
+
+#### 결제 페이지
+
+<img width="1440" alt="스크린샷 2023-08-08 오후 9 30 27" src="https://github.com/kimchanho97/algorithm/assets/104095041/88afacae-a75c-4d00-a787-0ca616e4b2e9">
+
+
+</br>
 </br>
 
 ## 폴더구조
