@@ -6,8 +6,6 @@ import Box from "../../common/atoms/Box";
 import Text from "../../common/atoms/Text";
 import { comma } from "../../../utils/convert";
 
-const staticServerUrl = process.env.REACT_APP_PATH || "";
-
 export default function ProductInformationColumn({ product }) {
   const { productName, price, id } = product;
   return (
@@ -15,7 +13,7 @@ export default function ProductInformationColumn({ product }) {
       <div>
         <Photo
           className="detail-photo"
-          src={staticServerUrl + `/images/${id}.jpg`}
+          src={`/images/${id}.jpg`}
           alt={productName}
         />
       </div>

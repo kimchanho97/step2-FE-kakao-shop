@@ -9,8 +9,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import LoginModal from "./LoginModal";
 
-const staticServerUrl = process.env.REACT_APP_PATH || "";
-
 export default function GlobalNavBar() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -21,7 +19,7 @@ export default function GlobalNavBar() {
     if (isLogged) {
       dispatch(LogOut());
     } else {
-      navigate(staticServerUrl + "/login");
+      navigate("/login");
     }
   };
 
@@ -30,7 +28,7 @@ export default function GlobalNavBar() {
       {isLoginModalOpen && (
         <LoginModal setIsLoginModalOpen={setIsLoginModalOpen} />
       )}
-      <Link to={staticServerUrl + "/"}>
+      <Link to={"/"}>
         <Logo src={logoKakao} alt="KakaoLogo" className="w-24" />
       </Link>
       <Container className="flex items-center">
@@ -41,7 +39,7 @@ export default function GlobalNavBar() {
               setIsLoginModalOpen(true);
               return;
             }
-            navigate(staticServerUrl + "/carts");
+            navigate("/carts");
           }}
         >
           <div className=" relative ">

@@ -5,8 +5,6 @@ import { comma } from "../../../utils/convert";
 import CartOptionItem from "../molecules/CartOptionItem";
 import Text from "../../common/atoms/Text";
 
-const staticServerUrl = process.env.REACT_APP_PATH || "";
-
 export default function CartItem({ item, onChange }) {
   return (
     <>
@@ -16,7 +14,7 @@ export default function CartItem({ item, onChange }) {
           <Box className="border-[1px] border-solid border-zinc-300 p-5">
             <Card
               className=" font-semibold text-black no-underline"
-              to={staticServerUrl + `/product/${item.id}`}
+              to={`/product/${item.id}`}
             >
               {item.productName}
             </Card>

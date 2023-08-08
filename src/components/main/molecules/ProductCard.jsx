@@ -6,8 +6,6 @@ import Photo from "../../common/atoms/Photo";
 import Container from "../../common/atoms/Container";
 import ProductCardSkeleton from "../atoms/ProductCardSkeleton";
 
-const staticServerUrl = process.env.REACT_APP_PATH || "";
-
 export default function ProductCard({ product, isFetching }) {
   return (
     <>
@@ -15,13 +13,13 @@ export default function ProductCard({ product, isFetching }) {
         <ProductCardSkeleton />
       ) : (
         <Card
-          to={staticServerUrl + `/product/${product.id}`}
+          to={`/product/${product.id}`}
           className="no-underline"
         >
           <Container className="flex h-96 w-64 flex-col items-start border-solid border-zinc-300 p-5">
             <Photo
               className="card"
-              src={staticServerUrl + `/images/${product.id}.jpg`}
+              src={`/images/${product.id}.jpg`}
               alt={product.productName}
             />
             <Box className=" pt-5 font-bold text-black no-underline">

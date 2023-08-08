@@ -17,8 +17,6 @@ import LoginModal from "../../common/molecules/LoginModal";
 import Toast from "../../common/atoms/Toast";
 import { useQueryClient } from "react-query";
 
-const staticServerUrl = process.env.REACT_APP_PATH || "";
-
 export default function OptionColumn({ product }) {
   const { options, id } = product;
   const [selectedOption, setSelectedOption] = useState([]);
@@ -71,7 +69,7 @@ export default function OptionColumn({ product }) {
           queryClient.invalidateQueries("cart");
           setSelectedOption([]);
           if (navigateCart) {
-            navigate(staticServerUrl + "/carts");
+            navigate("/carts");
           }
         },
         onError: (error) => {
@@ -106,7 +104,7 @@ export default function OptionColumn({ product }) {
         장바구니에 상품이 담겼습니다.
         <Button
           onClick={() => {
-            navigate(staticServerUrl + "/carts");
+            navigate("/carts");
           }}
           className="cursor-pointer border-0 bg-black px-4 text-base text-yellow-300"
         >

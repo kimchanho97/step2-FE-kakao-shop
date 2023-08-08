@@ -3,15 +3,13 @@ import { useNavigate, Outlet } from "react-router-dom";
 import Footer from "../components/common/atoms/Footer";
 import AuthNavBar from "../components/common/molecules/AuthNavBar";
 
-const staticServerUrl = process.env.REACT_APP_PATH || "";
-
 export default function RequiredAuthLayout() {
   const navigate = useNavigate();
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (!token) {
       alert("로그인이 필요한 서비스입니다.");
-      navigate(staticServerUrl + "/login");
+      navigate("/login");
     }
   }, [navigate]);
 
