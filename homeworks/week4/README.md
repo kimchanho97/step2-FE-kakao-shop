@@ -52,10 +52,6 @@
 
 </br>
 
-### 구현 영상
-
-https://github.com/kimchanho97/step2-FE-kakao-shop/assets/104095041/a465a7c3-b7e3-4150-b03d-f5857d701fcc
-
 ### 라이브러리
 
 - api 요청 및 응답: axios
