@@ -9,7 +9,7 @@
 [카카오톡 쇼핑하기](https://store.kakao.com/) 클론코딩 프로젝트
 
 + 개발 기간: 2023.06.26 ~ 2023.08.04
-+ 개발 인원: 프론트엔드 본인 1명
++ 개발 인원: 프론트엔드 1명(김찬호)
 + 개발 목적: 리액트 학습 및 다양한 라이브러리 적용
 
 </br>
@@ -53,7 +53,6 @@
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=ESLint&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
 
 </br>
-</br>
 
 ### 기능 구현
 
@@ -84,34 +83,51 @@
 
 ## 페이지 구성
 
-#### 로그인 페이지
++ **로그인 페이지**
 
-|<img width="934" alt="스크린샷 2023-08-08 오후 9 18 40" src="https://github.com/kimchanho97/algorithm/assets/104095041/4a1cbb87-ca9f-4b2b-b632-e75bfc1cf9c2">|<img width="934" alt="스크린샷 2023-08-08 오후 9 19 12" src="https://github.com/kimchanho97/algorithm/assets/104095041/1d26b9f6-b5df-451d-a511-6cacf53bcbb4">|
-| --- | --- |
+    |<img width="934" alt="스크린샷 2023-08-08 오후 9 18 40" src="https://github.com/kimchanho97/algorithm/assets/104095041/4a1cbb87-ca9f-4b2b-b632-e75bfc1cf9c2">|<img width="934" alt="스크린샷 2023-08-08 오후 9 19 12" src="https://github.com/kimchanho97/algorithm/assets/104095041/1d26b9f6-b5df-451d-a511-6cacf53bcbb4">|
+    | --- | --- |
 
-#### 회원가입 페이지
++ **회원가입 페이지**
 
-|<img width="934" alt="스크린샷 2023-08-08 오후 9 24 15" src="https://github.com/kimchanho97/algorithm/assets/104095041/3ce96c8e-df0d-4dc5-9746-8c5fc3555036">|<img width="934" alt="스크린샷 2023-08-08 오후 9 23 59" src="https://github.com/kimchanho97/algorithm/assets/104095041/3c3be5c6-7d23-418e-a3a8-d106ca401be0">|
-| --- | --- |
+    |<img width="934" alt="스크린샷 2023-08-08 오후 9 24 15" src="https://github.com/kimchanho97/algorithm/assets/104095041/3ce96c8e-df0d-4dc5-9746-8c5fc3555036">|<img width="934" alt="스크린샷 2023-08-08 오후 9 23 59" src="https://github.com/kimchanho97/algorithm/assets/104095041/3c3be5c6-7d23-418e-a3a8-d106ca401be0">|
+    | --- | --- |
 
-#### 메인 페이지
++ **메인 페이지**
 
-<img width="1440" alt="스크린샷 2023-08-08 오후 9 27 10" src="https://github.com/kimchanho97/algorithm/assets/104095041/318f9dfd-cf83-4944-82d8-180a23848a0b">
+    <img width="1440" alt="스크린샷 2023-08-29 오전 1 16 49" src="https://github.com/kimchanho97/algorithm/assets/104095041/0e8443d9-e828-4b8e-a2ff-7f3c9e085f54">
 
-#### 상품상세 페이지
++ **상품상세 페이지**
 
-<img width="1440" alt="스크린샷 2023-08-08 오후 9 27 58" src="https://github.com/kimchanho97/algorithm/assets/104095041/d874e2b1-376e-4b9a-8c70-a7e1f6d1551c">
+    <img width="1440" alt="스크린샷 2023-08-08 오후 9 27 58" src="https://github.com/kimchanho97/algorithm/assets/104095041/d874e2b1-376e-4b9a-8c70-a7e1f6d1551c">
 
-#### 장바구니 페이지
++ **장바구니 페이지**
 
-<img width="1440" alt="스크린샷 2023-08-08 오후 9 28 38" src="https://github.com/kimchanho97/algorithm/assets/104095041/761ad110-b089-4e8a-806b-3dccb2d9c01c">
+    <img width="1440" alt="스크린샷 2023-08-08 오후 9 28 38" src="https://github.com/kimchanho97/algorithm/assets/104095041/761ad110-b089-4e8a-806b-3dccb2d9c01c">
 
-#### 결제 페이지
++ **결제 페이지**
 
-<img width="1440" alt="스크린샷 2023-08-08 오후 9 30 27" src="https://github.com/kimchanho97/algorithm/assets/104095041/88afacae-a75c-4d00-a787-0ca616e4b2e9">
+    <img width="1440" alt="스크린샷 2023-08-08 오후 9 30 27" src="https://github.com/kimchanho97/algorithm/assets/104095041/88afacae-a75c-4d00-a787-0ca616e4b2e9">
 
 
 </br>
+
+## 구현 결과
+
++ **메인 페이지**
+    ![메인 페이지](https://github.com/kimchanho97/algorithm/assets/104095041/776c554c-303a-4f81-946d-fe04a77b4542)
+
+</br>
+
++ **장바구니 담기**
+    ![장바구니-구현](https://github.com/kimchanho97/algorithm/assets/104095041/79da9413-070c-4340-a590-43c690fc6e4d)
+
+</br>
+
++ **결제 과정**
+
+    ![결제-구현](https://github.com/kimchanho97/algorithm/assets/104095041/7d8516b4-8478-418c-8142-cf8fa996d9aa)
+
 </br>
 
 ## 폴더구조
@@ -536,7 +552,7 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </div>
 </details>
 
-+ 결과:
++ [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week5)
 + [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/272)
 
 ---
@@ -612,10 +628,22 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </div>
 </details>
 
-+ 결과:
 + [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/321)
 
 </br>
 
-## 회고
-> 카테캠 2단계 우수작 선정🎉
+## 🏆수상
+
+카테캠 2단계 우수작 선정🎉🎉🎉
+
+<img width="519" alt="스크린샷 2023-08-29 오전 2 08 42" src="https://github.com/kimchanho97/algorithm/assets/104095041/9b2947fa-e65a-436e-bf6a-1fb6a19464f4">
+
+</br>
+
+## ⏰회고
+> 짧다면 짧고 길다면 긴 6주간의 시간이 흘렀다. 제로에서 시작했지만 지금은 어느 정도 찬 것 같은 느낌이 든다. 지금까지의 대학 생활을 하면서 방학을 가장 알차게 보낸 것 같다.
+> 만약 카테캠이 아니었다면 혼자서는 절대 이 정도의 양을 공부하지 못했을 것이다.ㅎㅎ 사실 카테캠에 선정되었다는 것도 신기했는데 내가 2단계 우수작에 선정되다니...
+> 
+> 매주 최대한의 아웃풋을 내고자 열심히 공부하고 밤을 새우면서까지 퀄리티를 높이는 작업이 의미가 없던 일은 아니었던 것 같다.
+> 좋았던 점은 나의 코드를 보고 지적도 해주고 칭찬도 해주면서 내가 피드백을 반영함으로써 코드가 점점 괜찮아지고 있다는 인정을 받을 때 가장 좋았던 것 같다.
+> 하지만 잘하는 사람은 너무 많고 나는 아직 너무도 부족하다고 느낀다. 3단계에서도 수상할 수 있도록 열심히 할 것이다.
