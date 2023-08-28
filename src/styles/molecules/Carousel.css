@@ -4,9 +4,15 @@
   position: relative;
   min-width: 1280px;
   overflow: hidden;
+  height: 275px;
+}
+.carousel-container div {
+  flex: 0 0 100%;
 }
 .carousel-container img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-left-button,

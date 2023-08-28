@@ -56,15 +56,17 @@ export default function MainCarousel({ images }) {
   return (
     <Container className="carousel-container">
       {extendedImages.map((image, idx) => (
-        <img
-          src={image}
-          alt={`carouselImage-${idx}`}
-          key={idx}
-          style={{
-            transform: `translateX(-${curImgIdx * 100}%)`,
-            transition: carouselTransition,
-          }}
-        />
+        <div>
+          <img
+            src={image}
+            alt={`carouselImage-${idx}`}
+            key={idx}
+            style={{
+              transform: `translateX(-${curImgIdx * 100}%)`,
+              transition: carouselTransition,
+            }}
+          />
+        </div>
       ))}
       <Button onClick={handlePrevImg} className="carousel-left-button">
         {"<"}
