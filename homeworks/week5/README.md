@@ -30,7 +30,7 @@
 </br>
 
 - 주문 결제 페이지
-  <img width="1440" alt="스크린샷 2023-08-29 오전 1 06 16" src="https://github.com/kimchanho97/algorithm/assets/104095041/655f2825-5548-418e-bc7b-296606e60645">
+  <img width="1440" alt="스크린샷 2023-08-08 오후 9 30 27" src="https://github.com/kimchanho97/algorithm/assets/104095041/88afacae-a75c-4d00-a787-0ca616e4b2e9">
 
 </br>
 
