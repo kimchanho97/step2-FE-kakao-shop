@@ -109,6 +109,9 @@
 
     <img width="1440" alt="스크린샷 2023-08-08 오후 9 30 27" src="https://github.com/kimchanho97/algorithm/assets/104095041/88afacae-a75c-4d00-a787-0ca616e4b2e9">
 
++ **결제 완료 페이지**
+
+    <img width="1440" alt="스크린샷 2023-08-29 오전 2 31 51" src="https://github.com/kimchanho97/algorithm/assets/104095041/9798e764-c83e-478e-86fe-e8dae509a0db">
 
 </br>
 
