@@ -8,33 +8,30 @@
 
 [카카오톡 쇼핑하기](https://store.kakao.com/) 클론코딩 프로젝트
 
-+ 개발 기간: 2023.06.26 ~ 2023.08.04
-+ 개발 인원: 프론트엔드 1명(김찬호)
-+ 개발 목적: 리액트 학습 및 다양한 라이브러리 적용
+- 개발 기간: 2023.06.26 ~ 2023.08.04
+- 개발 인원: 프론트엔드 1명(김찬호)
+- 개발 목적: 리액트 학습 및 다양한 라이브러리 적용
 
 </br>
 
 ## 시작하기
 
 1. Git 저장소 복제(Clone):
-    ```bash
-    git clone <repository_url>
-    ```
-    
+   ```bash
+   git clone <repository_url>
+   ```
 2. 디렉토리 이동:
-    ```bash
-    cd <레포지토리 이름>
-    ```
-   
+   ```bash
+   cd <레포지토리 이름>
+   ```
 3. 라이브러리 설치:
    ```bash
    npm install
    ```
-    
 4. 실행(Run):
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 </br>
 
@@ -42,74 +39,73 @@
 
 **Languages**
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white">
 
 **Stacks**
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/React Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white">
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=Axios&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/React Query-FF4154?style=flat-square&logo=React Query&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white">
 
 **Tools**
 
-<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=ESLint&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
+<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=Prettier&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=ESLint&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white">
 
 </br>
 
 ### 기능 구현
 
-+ **데이터 페칭 (Data Fetching)**:
+- **데이터 페칭 (Data Fetching)**:
+
   ```
   리액트 쿼리를 활용하여 서버에서 데이터를 비동기적으로 가져오는 기능을 구현했습니다.
   API 요청과 응답 처리를 통해 홈페이지의 동적인 콘텐츠를 업데이트합니다.
   ```
 
-+ **무한 스크롤 (Infinite Scroll)**:
+- **무한 스크롤 (Infinite Scroll)**:
   ```
   Intersection Observer를 사용하여 무한 스크롤 기능을 구현했습니다.
   사용자가 스크롤을 내리면 자동으로 새로운 콘텐츠를 로드하여 페이지를 끝없이 확장합니다.
   ```
-  
-+ **Redux를 통한 로그인 상태 관리**:
+- **Redux를 통한 로그인 상태 관리**:
   ```
   Redux를 활용하여 전역적으로 로그인 상태를 관리하는 기능을 구현했습니다.
   로그인 및 로그아웃 상태에 따라 헤더나 다른 컴포넌트를 조건부로 렌더링합니다.
   ```
-  
-+ **무한 캐러셀 (Infinite Carousel)**:
+- **무한 캐러셀 (Infinite Carousel)**:
   ```
   카카오톡 쇼핑하기 홈페이지와 유사한 무한 캐러셀을 구현했습니다.
   다양한 상품 이미지가 자동으로 슬라이드되며, 사용자가 직접 슬라이드할 수도 있습니다.
   ```
-</br>
+  </br>
 
 ## 페이지 구성
 
-+ **로그인 페이지**
+- **로그인 페이지**
 
-    |<img width="934" alt="스크린샷 2023-08-08 오후 9 18 40" src="https://github.com/kimchanho97/algorithm/assets/104095041/4a1cbb87-ca9f-4b2b-b632-e75bfc1cf9c2">|<img width="934" alt="스크린샷 2023-08-08 오후 9 19 12" src="https://github.com/kimchanho97/algorithm/assets/104095041/1d26b9f6-b5df-451d-a511-6cacf53bcbb4">|
-    | --- | --- |
+  | <img width="934" alt="스크린샷 2023-08-08 오후 9 18 40" src="https://github.com/kimchanho97/algorithm/assets/104095041/4a1cbb87-ca9f-4b2b-b632-e75bfc1cf9c2"> | <img width="934" alt="스크린샷 2023-08-08 오후 9 19 12" src="https://github.com/kimchanho97/algorithm/assets/104095041/1d26b9f6-b5df-451d-a511-6cacf53bcbb4"> |
+  | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-+ **회원가입 페이지**
+- **회원가입 페이지**
 
-    |<img width="934" alt="스크린샷 2023-08-08 오후 9 24 15" src="https://github.com/kimchanho97/algorithm/assets/104095041/3ce96c8e-df0d-4dc5-9746-8c5fc3555036">|<img width="934" alt="스크린샷 2023-08-08 오후 9 23 59" src="https://github.com/kimchanho97/algorithm/assets/104095041/3c3be5c6-7d23-418e-a3a8-d106ca401be0">|
-    | --- | --- |
+  | <img width="934" alt="스크린샷 2023-08-08 오후 9 24 15" src="https://github.com/kimchanho97/algorithm/assets/104095041/3ce96c8e-df0d-4dc5-9746-8c5fc3555036"> | <img width="934" alt="스크린샷 2023-08-08 오후 9 23 59" src="https://github.com/kimchanho97/algorithm/assets/104095041/3c3be5c6-7d23-418e-a3a8-d106ca401be0"> |
+  | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-+ **메인 페이지**
+- **메인 페이지**
 
     <img width="1440" alt="스크린샷 2023-08-29 오전 1 16 49" src="https://github.com/kimchanho97/algorithm/assets/104095041/0e8443d9-e828-4b8e-a2ff-7f3c9e085f54">
 
-+ **상품상세 페이지**
+- **상품상세 페이지**
 
     <img width="1440" alt="스크린샷 2023-08-08 오후 9 27 58" src="https://github.com/kimchanho97/algorithm/assets/104095041/d874e2b1-376e-4b9a-8c70-a7e1f6d1551c">
 
-+ **장바구니 페이지**
+- **장바구니 페이지**
 
     <img width="1440" alt="스크린샷 2023-08-08 오후 9 28 38" src="https://github.com/kimchanho97/algorithm/assets/104095041/761ad110-b089-4e8a-806b-3dccb2d9c01c">
 
-+ **결제 페이지**
+- **결제 페이지**
 
     <img width="1440" alt="스크린샷 2023-08-08 오후 9 30 27" src="https://github.com/kimchanho97/algorithm/assets/104095041/88afacae-a75c-4d00-a787-0ca616e4b2e9">
 
-+ **결제 완료 페이지**
+- **결제 완료 페이지**
 
     <img width="1440" alt="스크린샷 2023-08-29 오전 2 31 51" src="https://github.com/kimchanho97/algorithm/assets/104095041/9798e764-c83e-478e-86fe-e8dae509a0db">
 
@@ -117,19 +113,19 @@
 
 ## 구현 결과
 
-+ **메인 페이지**
-    ![메인 페이지](https://github.com/kimchanho97/algorithm/assets/104095041/776c554c-303a-4f81-946d-fe04a77b4542)
+- **메인 페이지**
+  ![메인 페이지](https://github.com/kimchanho97/algorithm/assets/104095041/776c554c-303a-4f81-946d-fe04a77b4542)
 
 </br>
 
-+ **장바구니 담기**
-    ![장바구니-구현](https://github.com/kimchanho97/algorithm/assets/104095041/79da9413-070c-4340-a590-43c690fc6e4d)
+- **장바구니 담기**
+  ![장바구니-구현](https://github.com/kimchanho97/algorithm/assets/104095041/79da9413-070c-4340-a590-43c690fc6e4d)
 
 </br>
 
-+ **결제 과정**
+- **결제 과정**
 
-    ![결제-구현](https://github.com/kimchanho97/algorithm/assets/104095041/7d8516b4-8478-418c-8142-cf8fa996d9aa)
+  ![결제-구현](https://github.com/kimchanho97/algorithm/assets/104095041/7d8516b4-8478-418c-8142-cf8fa996d9aa)
 
 </br>
 
@@ -162,15 +158,15 @@
  ┗ 📜 ...
 ```
 
-+ apis: API 호출과 관련된 코드가 위치하는 폴더
-+ assets: 이미지, 폰트 등의 정적 자원들이 위치하는 폴더
-+ components: 페이지 단위별로 아토믹 패턴을 적용한 컴포넌트들이 위치하는 폴더
-+ hooks: 커스텀 훅스 (Custom Hooks)가 위치하는 폴더
-+ layouts: 레이아웃과 관련된 컴포넌트들이 위치하는 폴더
-+ pages: 각 페이지 컴포넌트들이 위치하는 폴더
-+ store: Redux와 관련된 파일들이 위치하는 폴더
-+ styles: 전역 스타일이나 스타일 유틸리티들이 위치하는 폴더
-+ utils: 유틸리티 함수들이 위치하는 폴더
+- apis: API 호출과 관련된 코드가 위치하는 폴더
+- assets: 이미지, 폰트 등의 정적 자원들이 위치하는 폴더
+- components: 페이지 단위별로 아토믹 패턴을 적용한 컴포넌트들이 위치하는 폴더
+- hooks: 커스텀 훅스 (Custom Hooks)가 위치하는 폴더
+- layouts: 레이아웃과 관련된 컴포넌트들이 위치하는 폴더
+- pages: 각 페이지 컴포넌트들이 위치하는 폴더
+- store: Redux와 관련된 파일들이 위치하는 폴더
+- styles: 전역 스타일이나 스타일 유틸리티들이 위치하는 폴더
+- utils: 유틸리티 함수들이 위치하는 폴더
 
 </br>
 
@@ -185,17 +181,20 @@
 </br>
 
 ## **과제명**
+
 ```
 1. 쇼핑몰 웹사이트 탐색을 통한 페이지 구성
 2. UI 컴포넌트의 명칭과 사용법 익히기
 ```
+
 </br>
 
 ## **과제 설명**
 
 ✅**과제 1.**
+
 ```
-쇼핑몰 웹사이트를 탐색해 어떠한 페이지 구성을 가지고 있는지 체크합니다. 
+쇼핑몰 웹사이트를 탐색해 어떠한 페이지 구성을 가지고 있는지 체크합니다.
 대부분의 쇼핑몰은 다음의 페이지 구성을 가지고 있습니다.
 
 - 메인 페이지
@@ -207,12 +206,12 @@
 - 장바구니 페이지
 - ...
 
-이와 같이 위의 서비스가 동작하는데 필수적인 페이지가 무엇이 있고, 해당 페이지에서 어떠한 기능이 구현되어야 하는지 작성하세요. 
+이와 같이 위의 서비스가 동작하는데 필수적인 페이지가 무엇이 있고, 해당 페이지에서 어떠한 기능이 구현되어야 하는지 작성하세요.
 그리고 어떠한 디렉터리 구조로 프로젝트를 진행할지 작성해주세요. (README.md 파일에 작성)
 ```
 
 ```
-README.md의 예시 형식입니다. 아래를 참고해 작성해주세요. 
+README.md의 예시 형식입니다. 아래를 참고해 작성해주세요.
 각 페이지마다 핵심 기능, 기능 상세 설명, 인터페이스 요구사항이 어떤 것이 있을지 고민해서 작성해주세요.
 
 ###예시
@@ -221,7 +220,7 @@ README.md의 예시 형식입니다. 아래를 참고해 작성해주세요.
 1. 로그인 페이지
 - 핵심 기능: 로그인 요청 및 사용자 로그인 정보 저장
 - 기능 상세 설명: 이메일과 비밀번호를 이용해 로그인을 진행하고, 이에 대한 상태 처리를 합니다.
-- 인터페이스 요구사항: 이메일 또는 비밀번호에 들어온 값이 적합하지 않은 경우 적절한 알림을 보냅니다. 
+- 인터페이스 요구사항: 이메일 또는 비밀번호에 들어온 값이 적합하지 않은 경우 적절한 알림을 보냅니다.
 -- ...
 
 #디렉터리 구조
@@ -251,34 +250,37 @@ README.md의 예시 형식입니다. 아래를 참고해 작성해주세요.
 ✅**과제 3.**
 
 ```
-각 컴포넌트를 시현해 볼 수 있는 페이지를 만드세요. 
+각 컴포넌트를 시현해 볼 수 있는 페이지를 만드세요.
 하나의 페이지에 모든 컴포넌트를 둬도 좋고, 각 페이지별로 분리해도 괜찮습니다.
 ```
 
 </br>
 
 ## **과제 상세 : 수강생들이 과제를 진행할 때, 유념해야할 것**
+
 ```
-1. README.md 파일은 동료 개발자에게 프로젝트에 쉽게 랜딩하도록 돕는 중요한 소통 수단입니다. 
+1. README.md 파일은 동료 개발자에게 프로젝트에 쉽게 랜딩하도록 돕는 중요한 소통 수단입니다.
 해당 프로젝트에 대해 아무런 지식이 없는 동료들에게 설명하는 것처럼 쉽고, 간결하게 작성해주세요.
 
-2. 좋은 개발자는 디자이너, 기획자, 마케터 등 여러 포지션에 있는 분들과 소통을 잘합니다. 
+2. 좋은 개발자는 디자이너, 기획자, 마케터 등 여러 포지션에 있는 분들과 소통을 잘합니다.
 UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤니케이션 스킬이자 필요사항이니 어떤 상황에서 해당 컴포넌트를 사용하면 좋을지 고민하며 코드를 작성해보세요.
 ```
+
 </br>
 
 ## **코드리뷰 관련: PR시, 아래 내용을 포함하여 코멘트 남겨주세요.**
+
 **1. PR 제목과 내용을 아래와 같이 작성 해주세요.**
 
->- PR 제목 : 부산대FE_라이언_1주차 과제
+> - PR 제목 : 부산대FE\_라이언\_1주차 과제
 
 </br>
 
 </div>
 </details>
 
-+ [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week1)
-+ [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/60)
+- [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week1)
+- [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/60)
 
 ---
 
@@ -287,17 +289,21 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 <div>
 
 ## 카카오 테크 캠퍼스 2단계 - FE - 2주차 클론 과제
+
 </br>
 
 ## **과제명**
+
 ```
 1. 코드 디자인 패턴과 상태 관리
 ```
+
 </br>
 
 ## **과제 설명**
 
-✅**과제 1. 아토믹 컴포넌트 디자인 패턴 사용** 
+✅**과제 1. 아토믹 컴포넌트 디자인 패턴 사용**
+
 ```
 - 회원가입, 로그인 페이지 개발에 필요한 컴포넌트를 아토믹 디자인 패턴을 사용해 작성하세요.
 - 작성한 컴포넌트는 사용의 편의성을 위해 Props에 적절한 주석을 달아주세요.
@@ -305,7 +311,7 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 
 </br>
 
-✅**과제 2. 회원 가입, 로그인 페이지 개발** 
+✅**과제 2. 회원 가입, 로그인 페이지 개발**
 
 ```
 - 백엔드 API 문서를 참고하여 회원가입, 로그인 페이지를 개발하세요.
@@ -316,7 +322,7 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 
 </br>
 
-✅**과제 3. 상태관리 모듈 적용** 
+✅**과제 3. 상태관리 모듈 적용**
 
 ```
 - 로그인 후에 사용자의 정보를 상태관리 모듈을 하나 선정해 저장하고 불러올 수 있도록 코드를 작성하세요.
@@ -329,6 +335,7 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </br>
 
 ## **과제 상세 : 수강생들이 과제를 진행할 때, 유념해야할 것**
+
 ```
 1. 아토믹 컴포넌트를 작성할 때 Atoms, Molecules에 반드시 특정한 컴포넌트가 들어갈 필요는 없습니다. 개발자의 주관이 들어갈 수 있는 부분이니 적절한 뎁스로 나누어보세요.
 
@@ -336,26 +343,27 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 
 3. 상태 관리 모듈은 자신이 써보고 싶은 어떤 모듈이던 상관 없습니다. 모듈을 사용해보면서 모듈에 들어가는 미들웨어나 툴도 사용해보세요.
 ```
+
 </br>
 
 ## **코드리뷰 관련: PR시, 아래 내용을 포함하여 코멘트 남겨주세요.**
+
 **1. PR 제목과 내용을 아래와 같이 작성 해주세요.**
 
->- PR 제목 : 부산대FE_라이언_2주차 과제
+> - PR 제목 : 부산대FE\_라이언\_2주차 과제
 
 </br>
 
 **2. PR 내용 :**
 
->- 코드 작성하면서 어려웠던 점
->- 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
-
+> - 코드 작성하면서 어려웠던 점
+> - 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
 
 </div>
 </details>
 
-+ [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week2)
-+ [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/114)
+- [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week2)
+- [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/114)
 
 ---
 
@@ -364,20 +372,24 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 <div>
 
 ## 카카오 테크 캠퍼스 2단계 - FE - 3주차 클론 과제
+
 </br>
 
 ## **과제명**
+
 ```
 1. 비동기 통신 활용과 레이아웃
 ```
+
 </br>
 
 ## **과제 설명**
 
 ✅**과제 1. 상품 목록 페이지 개발**
+
 ```
 - 백엔드 API 문서를 참고하여 상품 목록 페이지를 개발하세요.
-- 페이지네이션을 이용해 페이지 값을 증가시켜가며 조회될 수 있도록 코드를 작성해주세요. 
+- 페이지네이션을 이용해 페이지 값을 증가시켜가며 조회될 수 있도록 코드를 작성해주세요.
 - 데이터 로딩 과정에 로더를 구현하세요.
 - 데이터 불러오기를 할 때 react-query를 사용해보세요.
 ```
@@ -405,31 +417,33 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </br>
 
 ## **과제 상세 : 수강생들이 과제를 진행할 때, 유념해야할 것**
+
 ```
 1. 스켈레톤과 로더를 바텀부터 만들기보단 Codepen 등을 참고해 구현하고, Props를 통한 실제 적용에 집중해주세요.
 2. 과제 3번을 해결할 때 Facade pattern을 참고해보세요.
 3. 과제 1번을 해결할 때 react-query를 사용해보되 전체 프로젝트에 react-query를 적용할 필요는 없습니다. 하나 이상의 API 요청에 적용해보세요.
 ```
+
 </br>
 
 ## **코드리뷰 관련: PR시, 아래 내용을 포함하여 코멘트 남겨주세요.**
+
 **1. PR 제목과 내용을 아래와 같이 작성 해주세요.**
 
->- PR 제목 : 부산대FE_라이언_3주차 과제
+> - PR 제목 : 부산대FE\_라이언\_3주차 과제
 
 </br>
 
 **2. PR 내용 :**
 
->- 코드 작성하면서 어려웠던 점
->- 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
-
+> - 코드 작성하면서 어려웠던 점
+> - 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
 
 </div>
 </details>
 
-+ [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week3)
-+ [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/166)
+- [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week3)
+- [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/166)
 
 ---
 
@@ -441,17 +455,20 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </br>
 
 ## **과제명**
+
 ```
 상세 페이지 개발과 라이브러리
 ```
+
 </br>
 
 ## **과제 설명**
 
 ✅**과제 1. 상품 상세 페이지 개발**
+
 ```
 - 백엔드 API 문서를 참고하여 상품 상세 페이지를 개발하세요.
-- 한 개의 UI 라이브러리를 선정해 사용해보세요. 
+- 한 개의 UI 라이브러리를 선정해 사용해보세요.
 - 적절하지 않은 상품 ID 값이 들어오거나 찾을 수 없는 상품일 때 404 페이지 또는 "상품을 찾을 수 없습니다."라는 메시지가 있는 페이지로 이동될 수 있도록 코드를 작성하세요.
 - 데이터 로딩이 완료될 때까지 로더를 적용하세요.
 - '장바구니 담기' 버튼과 '구매' 버튼을 나누어 배치하세요.
@@ -471,29 +488,31 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </br>
 
 ## **과제 상세 : 수강생들이 과제를 진행할 때, 유념해야할 것**
+
 ```
 1. UI 라이브러리를 사용할 때 모든 구성요소에 UI 라이브러리의 규칙을 적용할 필요는 없습니다. UI 라이브러리의 사용법을 익히고, 하나 이상의 컴포넌트에 적용해봅니다.
 ```
+
 </br>
 
 ## **코드리뷰 관련: PR시, 아래 내용을 포함하여 코멘트 남겨주세요.**
+
 **1. PR 제목과 내용을 아래와 같이 작성 해주세요.**
 
->- PR 제목 : 부산대FE_라이언_4주차 과제
+> - PR 제목 : 부산대FE\_라이언\_4주차 과제
 
 </br>
 
 **2. PR 내용 :**
 
->- 코드 작성하면서 어려웠던 점
->- 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
-
+> - 코드 작성하면서 어려웠던 점
+> - 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
 
 </div>
 </details>
 
-+ [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week4)
-+ [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/228)
+- [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week4)
+- [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/228)
 
 ---
 
@@ -502,17 +521,21 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 <div>
 
 ## 카카오 테크 캠퍼스 2단계 - FE - 5주차 클론 과제
+
 </br>
 
 ## **과제명**
+
 ```
-주문 결제 개발 
+주문 결제 개발
 ```
+
 </br>
 
 ## **과제 설명**
 
 ✅**과제 1. 주문 결제 페이지 개발**
+
 ```
 - 백엔드 API 문서를 참고하여 주문 결제 페이지를 개발하세요.
 - 결제 페이지에서는 결제 전 결제 상세 정보에 대한 데이터를 조회하고, 결제를 확정하는 기능 2가지에 중점을 둡니다.
@@ -532,51 +555,56 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </br>
 
 ## **과제 상세 : 수강생들이 과제를 진행할 때, 유념해야할 것**
+
 ```
-1. 결제를 구현할 때 새로운 모듈을 학습하는데 있어서 생각보다 시간 소요가 클 것입니다. 또한 몇몇의 PG사에서 제공하는 SDK의 경우 리액트와 호환성이 나쁜 경우도 있습니다. 
+1. 결제를 구현할 때 새로운 모듈을 학습하는데 있어서 생각보다 시간 소요가 클 것입니다. 또한 몇몇의 PG사에서 제공하는 SDK의 경우 리액트와 호환성이 나쁜 경우도 있습니다.
 2. 테스트 결제시에 실제 비용이 나가는 것처럼 보이는 경우도 있습니다. PG사마다 정책이 다르지만 대부분 테스트 금액은 1일 이내로 환급받는 구조입니다.
 3. 결제시에는 생각보다 많은 데이터를 하나의 페이로드에 담아 전달해야 합니다. 이 과정에서 데이터가 적절하지 않은 값이 들어갈 가능성이 높고, 코드가 복잡해질 수 있습니다. 기능 단위를 나누어 함수형 프로그래밍을 시도해보는게 도움이 될 수 있습니다.
 ```
+
 </br>
 
 ## **코드리뷰 관련: PR시, 아래 내용을 포함하여 코멘트 남겨주세요.**
+
 **1. PR 제목과 내용을 아래와 같이 작성 해주세요.**
 
->- PR 제목 : 부산대FE_라이언_5주차 과제
+> - PR 제목 : 부산대FE\_라이언\_5주차 과제
 
 </br>
 
 **2. PR 내용 :**
 
->- 코드 작성하면서 어려웠던 점
->- 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
-
+> - 코드 작성하면서 어려웠던 점
+> - 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
 
 </div>
 </details>
 
-+ [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week5)
-+ [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/272)
+- [구현 결과](https://github.com/kimchanho97/step2-FE-kakao-shop/tree/main/homeworks/week5)
+- [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/272)
 
 ---
-
 
 <details>
 <summary>Step-2.-Week-6</summary>
 <div>
 
 ## 카카오 테크 캠퍼스 2단계 - FE - 6주차 클론 과제
+
 </br>
 
 ## **과제명**
+
 ```
 프로젝트 마무리
 ```
+
 </br>
 
 ## **과제 설명**
 
 ✅**과제 1. 배포**
+
 ```
 - 카카오 배포환경을 통해 배포를 진행합니다.
 - 계정을 생성하고 자신의 레포지토리를 연결해 배포합니다.
@@ -596,7 +624,7 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 
 </br>
 
-✅**과제 3.  README.md 정리**
+✅**과제 3. README.md 정리**
 
 ```
 - 배포한 환경에 대해 구체적인 설명을 남겨주세요.
@@ -606,6 +634,7 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </br>
 
 ## **과제 상세 : 수강생들이 과제를 진행할 때, 유념해야할 것**
+
 ```
 1. 많은 서비스가 개발 레벨에서는 잘 작동하다가도 배포 단계에서 에러를 만나는 경우가 많습니다. 배포 후에 기능을 하나하나 점검해보고, 여러 환경에서 시도해보세요.
 
@@ -613,25 +642,26 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 
 3. 코드를 시간이 지나서 보면 어떤 목적으로, 왜 만들었는지 알아보기 힘든 경우가 많습니다. 기본적인 내용이라 생각한 부분도 주석을 달아주세요.
 ```
+
 </br>
 
 ## **코드리뷰 관련: PR시, 아래 내용을 포함하여 코멘트 남겨주세요.**
+
 **1. PR 제목과 내용을 아래와 같이 작성 해주세요.**
 
->- PR 제목 : 부산대FE_라이언_6주차 과제
+> - PR 제목 : 부산대FE\_라이언\_6주차 과제
 
 </br>
 
 **2. PR 내용 :**
 
->- 코드 작성하면서 어려웠던 점
->- 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
-
+> - 코드 작성하면서 어려웠던 점
+> - 코드 리뷰 시, 멘토님이 중점적으로 리뷰해줬으면 하는 부분
 
 </div>
 </details>
 
-+ [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/321)
+- [코드 리뷰](https://github.com/Kakao-tech-campus-FE/step2-FE-kakao-shop/pull/321)
 
 </br>
 
@@ -644,9 +674,10 @@ UI 컴포넌트의 명칭과 이를 구현하는 능력은 필수적인 커뮤�
 </br>
 
 ## ⏰회고
+
 > 짧다면 짧고 길다면 긴 6주간의 시간이 흘렀다. 제로에서 시작했지만 지금은 어느 정도 찬 것 같은 느낌이 든다. 지금까지의 대학 생활을 하면서 방학을 가장 알차게 보낸 것 같다.
 > 만약 카테캠이 아니었다면 혼자서는 절대 이 정도의 양을 공부하지 못했을 것이다.ㅎㅎ 사실 카테캠에 선정되었다는 것도 신기했는데 내가 2단계 우수작에 선정되다니...
-> 
+>
 > 매주 최대한의 아웃풋을 내고자 열심히 공부하고 밤을 새우면서까지 퀄리티를 높이는 작업이 의미가 없던 일은 아니었던 것 같다.
 > 좋았던 점은 나의 코드를 보고 지적도 해주고 칭찬도 해주면서 내가 피드백을 반영함으로써 코드가 점점 괜찮아지고 있다는 인정을 받을 때 가장 좋았던 것 같다.
 > 하지만 잘하는 사람은 너무 많고 나는 아직 너무도 부족하다고 느낀다. 3단계에서도 수상할 수 있도록 열심히 할 것이다.
